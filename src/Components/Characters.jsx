@@ -21,7 +21,7 @@ export default function Characters(props) {
     <div className='flex flex-col gap-2 max-w-[80vw]'>
       <div className='w-full flex gap-2'>
         <input
-          placeholder='Exact character name, case sensitive'
+          placeholder='Exact character name'
           className='focus:outline-none w-full text-xs md:text-base pl-2
           bg-opacity-80 bg-stone-200 rounded'
           ref={search}
