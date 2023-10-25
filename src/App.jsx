@@ -18,11 +18,15 @@ function App() {
       <footer className='w-full pb-4 font-medieval md:text-xl flex justify-center items-center gap-2'>
         <span>
           Made by{"  "}
-          <a href='dolan.dev' className='text-stone-800'>
+          <a
+            href='https://dolan.dev'
+            target='_blank'
+            className='text-stone-800 underline'
+          >
             Dolan Reynolds
           </a>
         </span>
-        <a href='https://github.com/dolanR' className='h-8 w-8'>
+        <a href='https://github.com/dolanR' target='_blank' className='h-6 w-6'>
           <AiFillGithub className='w-full h-full' />
         </a>
       </footer>
